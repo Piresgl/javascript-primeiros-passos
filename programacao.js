@@ -1,8 +1,13 @@
-var idade = 17
-var nome = "pires"
-var altura = 1.70
-var cidade = "São Paulo"
+// declaraçao de variaveis 
+let nome = prompt("Digite seu nome:")
+var altura
+let anoNascimento
+var cidade =
 
-console.log("Ola, meu nome é " + nome)
-console.log ("Eu tenho " + idade + " anos")
-console.log ("Eu moro na cidade de " + cidade)
+// processamento
+anoNascimento = parseInt(prompt(nome+", em que ano você nasceu? "))
+ cidade = prompt("Onde voce nasceu?")
+ altura = prompt ("Quanto voce mede?")
+
+// saida de dados
+document.write("Olá, meu nome é " + nome + ". Eu tenho " + (2026-anoNascimento) + " anos e nasci em " + cidade + " e tenho " + (altura) + " de altura");
