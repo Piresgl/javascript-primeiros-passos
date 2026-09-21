@@ -11,3 +11,5 @@ anoNascimento = parseInt(prompt(nome+", em que ano você nasceu? "))
 
 // saida de dados
 document.write("Olá, meu nome é " + nome + ". Eu tenho " + (2026-anoNascimento) + " anos e nasci em " + cidade + " e tenho " + (altura) + " de altura");
+
+document.write('<br>Certo filosofo uma vez disse: "Não construa uma casa no terreno dos sogros."')
