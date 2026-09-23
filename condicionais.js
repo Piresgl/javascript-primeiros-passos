@@ -1,21 +1,19 @@
 // DECLARAÇÃO DE VARIAVEIS
 let idade = prompt("Qual a sua idade?")
 var idadeCalculada;
-var maiordeidade = idade >= 18
+var maiorDeIdade = idade >= 18
 let anoNascimento;
-var anoAtual = 2026
+var anoAtual = 2026;
 
 //PROCESSAMENTO
-if (maiorIdade == true) {
+if (maiorDeIdade == true) {
     anoNascimento = prompt("Então digite o ano que você nasceu");
-    idadeCalculada = anoAtual - anoNascimento
-    if (maiorDeIdade == true) 
-
+    idadeCalculada = anoAtual - anoNascimento;
+   
+    document.write("Você nasceu em " + anoNascimento + " e tem aproximadamente " + idadeCalculada + " anos.");
+    
+    //SAIDA DE DADOS
 } else {
     document.write("Volte quando tiver 18 anos completos!")
 }
-
-//SAIDA DE DADOS
-
-
-
+    
