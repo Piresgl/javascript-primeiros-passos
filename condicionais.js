@@ -1,16 +1,21 @@
-let = 18
-var maiorDeIdade = idade > 18
+// DECLARAÇÃO DE VARIAVEIS
+let idade = prompt("Qual a sua idade?")
+var idadeCalculada;
+var maiordeidade = idade >= 18
+let anoNascimento;
+var anoAtual = 2026
 
-//TIPOS PRIMITIVOS
-let numero = 6
-let texto = "meu texto"
-let logicoVerdadeiro = true
-let logicoFalso = false
+//PROCESSAMENTO
+if (maiorIdade == true) {
+    anoNascimento = prompt("Então digite o ano que você nasceu");
+    idadeCalculada = anoAtual - anoNascimento
+    if (maiorDeIdade == true) 
 
-document.write("Inicio do Programa<br><br>")
-
-if (maiordeidade == true) {
-    document.write("o usuario é maior de idade ");
+} else {
+    document.write("Volte quando tiver 18 anos completos!")
 }
 
-document.write("<br><br>Fim do Programa");
+//SAIDA DE DADOS
+
+
+

@@ -1,0 +1,20 @@
+> : maior
+< : menor
+!= : diferente
+>= : maior ou igual
+<= : menor ou igual
+
+ESXLUSIVOS DO JAVASCRIPT
+=== : Identico
+!== : Não identico
+
+var numero = 23
+var numeroTexto = "23"
+
+numero == numeroTexto --> true
+numero === numeroTexto vai ser: false
+
+let numero = 6
+let texto = "meutexto"
+let logicoVerdadeiro = true
+let logicoFalso = false
