@@ -13,8 +13,17 @@
 }
 
 #simples {
-background-color: rgb(209, 197, 197);}
+background-color: rgb(180, 170, 170);}
 
 #simples:hover {
 scale: 105%
+}
+
+.Form {
+    border-color: rgb(32, 111, 190);
+     margin-bottom: 60px;
+    padding-top: 20px;
+    color: rgb(2, 3, 3);
+    text-align: center;
+
 }
